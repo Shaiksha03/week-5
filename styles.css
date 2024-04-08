@@ -1,0 +1,18 @@
+.tiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tile:hover {
+    background-color: gray;
+}
